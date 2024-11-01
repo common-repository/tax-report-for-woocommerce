@@ -1,0 +1,110 @@
+.ic_tax_report *{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+	
+.ic_tax_report *:before,
+.ic_tax_report *:after{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+::-webkit-input-placeholder{color:#909;} /* WebKit, Blink, Edge */
+:-moz-placeholder{color:#aaa;} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder{color:#aaa;} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder{color:#909;} /* Internet Explorer 10-11 */
+
+.ic_tax_report *{margin:0; padding:0;}
+
+.ic_tax_report article, .ic_tax_report aside, .ic_tax_report details, f.ic_tax_report igcaption, .ic_tax_report figure, .ic_tax_report footer, .ic_tax_report header, .ic_tax_report hgroup, .ic_tax_report main, .ic_tax_report menu, .ic_tax_report nav, .ic_tax_report section, .ic_tax_report summary{display:block;}
+
+.ic_tax_report ul{margin:0; padding:0;}
+
+.ic_tax_report{margin-top:25px; font-size:14px;}
+.ic_tax_report p{margin-bottom:15px !important; font-size:14px;}
+
+.ic_tax_report input, .ic_tax_report select{
+    margin:1px;
+    padding:3px 5px;
+	}
+	
+.ic_tax_report h3{font-size:17px;}
+
+.ic_tax_report a{text-decoration:none; color:#337ab7;}
+.ic_tax_report a:focus{outline:none; border:none; box-shadow:none; /*color:#337ab7;*/}
+
+.ic_tax_report img{outline:none; border:none;}
+
+.ic_tax_report .clearfix:before, .ic_tax_report .clearfix:after{display:table; content:" ";}
+.ic_tax_report .clearfix:after{clear:both;}
+
+.ic_tax_report .left{float:left;}
+.ic_tax_report .right{float:right;}
+
+.ic_tax_report .ic_text-left{text-align:left;}
+.ic_tax_report .ic_text-right{text-align:right;}
+.ic_tax_report .ic_text-center{text-align:center;}
+
+.ic_tax_report .row{margin-right:-15px; margin-left:-15px;}
+
+.ic_tax_report .row:before, .ic_tax_report .row:after{display:table; content:" ";}
+.ic_tax_report .row:after{clear:both;}
+
+.ic_tax_report .col-xs-1, .ic_tax_report .col-sm-1, .ic_tax_report .col-md-1, .ic_tax_report .col-lg-1, 
+.ic_tax_report .col-xs-2, .ic_tax_report .col-sm-2, .ic_tax_report .col-md-2, .ic_tax_report .col-lg-2, 
+.ic_tax_report .col-xs-3, .ic_tax_report .col-sm-3, .ic_tax_report .col-md-3, .ic_tax_report .col-lg-3, 
+.ic_tax_report .col-xs-4, .ic_tax_report .col-sm-4, .ic_tax_report .col-md-4, .ic_tax_report .col-lg-4, 
+.ic_tax_report .col-xs-5, .ic_tax_report .col-sm-5, .ic_tax_report .col-md-5, .ic_tax_report .col-lg-5, 
+.ic_tax_report .col-xs-6, .ic_tax_report .col-sm-6, .ic_tax_report .col-md-6, .ic_tax_report .col-lg-6, 
+.ic_tax_report .col-xs-7, .ic_tax_report .col-sm-7, .ic_tax_report .col-md-7, .ic_tax_report .col-lg-7, 
+.ic_tax_report .col-xs-8, .ic_tax_report .col-sm-8, .ic_tax_report .col-md-8, .ic_tax_report .col-lg-8, 
+.ic_tax_report .col-xs-9, .ic_tax_report .col-sm-9, .ic_tax_report .col-md-9, .ic_tax_report .col-lg-9, 
+.ic_tax_report .col-xs-10, .ic_tax_report .col-sm-10, .ic_tax_report .col-md-10, .ic_tax_report .col-lg-10, 
+.ic_tax_report .col-xs-11, .ic_tax_report .col-sm-11, .ic_tax_report .col-md-11, .ic_tax_report .col-lg-11, 
+.ic_tax_report .col-xs-12, .ic_tax_report .col-sm-12, .ic_tax_report .col-md-12, .ic_tax_report .col-lg-12{
+	position:relative;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	}
+
+.ic_tax_report .col-xs-1, .ic_tax_report .col-xs-2, .ic_tax_report .col-xs-3, .ic_tax_report .col-xs-4, .ic_tax_report .col-xs-5, .ic_tax_report .col-xs-6, .ic_tax_report .col-xs-7, .ic_tax_report .col-xs-8, .ic_tax_report .col-xs-9, .ic_tax_report .col-xs-10, .ic_tax_report .col-xs-11, .ic_tax_report .col-xs-12{
+	float:left;
+	}
+	
+.ic_tax_report .col-md-1, .ic_tax_report .col-md-2, .ic_tax_report .col-md-3, .ic_tax_report .col-md-4, .ic_tax_report .col-md-5, .ic_tax_report .col-md-6, .ic_tax_report .col-md-7, .ic_tax_report .col-md-8, .ic_tax_report .col-md-9, .ic_tax_report .col-md-10, .ic_tax_report .col-md-11, .ic_tax_report .col-md-12{
+	float:left;
+	}
+	
+.ic_tax_report .col-xs-12{width:100%;}
+.ic_tax_report .col-xs-11{width:91.66666667%;}
+.ic_tax_report .col-xs-10{width:83.33333333%;}
+.ic_tax_report .col-xs-9{width:75%;}
+.ic_tax_report .col-xs-8{width:66.66666667%;}
+.ic_tax_report .col-xs-7{width:58.33333333%;}
+.ic_tax_report .col-xs-6{width:50%;}
+.ic_tax_report .col-xs-5{width:41.66666667%;}
+.ic_tax_report .col-xs-4{width:33.33333333%;}
+.ic_tax_report .col-xs-3{width:25%;}
+.ic_tax_report .col-xs-2{width: 16.6667%;}
+.ic_tax_report .col-xs-1{width:8.33333333%;}
+
+
+@media (min-width: 992px){
+	.ic_tax_report .col-md-1{width:8.333333333333332%;}
+	.ic_tax_report .col-md-2{width:16.666666666666664%;}
+	.ic_tax_report .col-md-3{width:25%;}
+	.ic_tax_report .col-md-4{width:33.33333333333333%;}
+	.ic_tax_report .col-md-5{width:41.66666666666667%;}
+	.ic_tax_report .col-md-6{width:50%;}
+	.ic_tax_report .col-md-7{width:58.333333333333336%;}
+	.ic_tax_report .col-md-8{width:66.66666666666666%;}
+	.ic_tax_report .col-md-9{width:75%;}
+	.ic_tax_report .col-md-10{width:83.33333333333334%;}
+	.ic_tax_report .col-md-11{width:91.66666666666666%;}
+	.ic_tax_report .col-md-12{width:100%;}
+}
+
+

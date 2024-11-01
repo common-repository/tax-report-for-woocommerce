@@ -1,0 +1,371 @@
+*{margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6{margin:0;}
+
+.ic_tax_report{
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.ic_tax_report h2{margin-bottom:15px; font-size:22px;}
+
+/* Dashboard ---------------------------------------------- */
+
+.ic_tax_report .ic_postbox .ic_summary:before{margin-bottom:-15px;}
+
+.ic_tax_report .ic_summary{padding:15px 15px 0 15px;}
+
+.ic_tax_report .ic_summary .col-xs-3{margin-bottom:15px;}
+
+.ic_tax_report .ic_summary h4{font-size:15px; margin:10px 0 10px 0;}
+.ic_tax_report .ic_value{font-size:28px; font-weight:600;}
+.ic_tax_report .ic_value a{color:#fff;}
+
+.ic_tax_report .ic_block{
+	height:100px;
+	padding:15px 0px 0px 75px;
+	position:relative;
+	color:#FFF;
+	}
+	
+.ic_tax_report .ic_block i{
+	position:absolute;
+	display:inline-block;
+    left:15px;
+    top:30px;
+	font-size:35px;    
+	}
+
+.ic_tax_report .ic_block-orange{background:#F37B53;}
+.ic_tax_report .ic_block-pink{background:#DE577B;}
+.ic_tax_report .ic_block-purple{background:#847CC5;}
+.ic_tax_report .ic_block-yellow{background:#FBB168;}
+.ic_tax_report .ic_block-green{background:#22BA9B;}
+.ic_tax_report .ic_block-grey{background:#666981;}
+
+.ic_tax_report .ic_postbox{
+	box-shadow:0px 2px 2px 0px #E8E8E8;
+	background-color:#FFFFFF;
+	border:1px solid #CACACA;
+	margin-bottom:25px;
+	}
+	
+.ic_tax_report .ic_boxheader{
+	padding:12px 15px;
+	border-bottom:1px solid #E6E7E8;
+	}
+	
+.ic_tax_report .ic_boxpadding{
+	padding:10px 15px;
+	}
+
+/*Dashboard*/
+	
+.ic_tax_report .ic_postbox h3{
+	cursor:default;
+	color:#333;
+	padding:10px 0 10px 8px !important;
+	position:relative;
+	font-size:14px !important;
+	background:url(../images/heading-bg.jpg) left bottom repeat-x;
+	text-shadow:1px 1px 0 #fff;
+	}
+
+/* Table ---------------------------------------------- */
+
+.ic_tax_report table.widefat{
+	width:100%;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.ic_tax_report table.widefat thead th{
+	background: #5AB6DF;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+}
+
+.widefat tr:nth-child(2n+1) {background-color: #f9f9f9;}
+
+/* Search ---------------------------------------------- */
+
+.ic_tax_report .ic_form-group{margin-bottom:15px;}
+.ic_tax_report .ic_form-group:before, .ic_tax_report .ic_form-group:after{display:table; content:"";}
+.ic_tax_report .ic_form-group:after{clear:both;}
+
+.ic_tax_report .ic_navigation{margin-bottom:10px;}
+	
+.ic_tax_report .ic_formwrap{
+	width:1005px;
+	background-color:#FFF;
+	border:1px solid #ddd;
+	box-shadow:0px 2px 2px 0px #E8E8E8;
+	}
+	
+.ic_tax_report .ic_search_report_form{padding-top:15px;}
+	
+.ic_tax_report .ic_navigation .ic_section-header{
+	cursor:default;
+	padding:10px 0 10px 8px !important;
+	position:relative;
+	background:url(../images/heading-bg.jpg) left bottom repeat-x;
+	text-shadow:1px 1px 0 #fff;
+	}
+	
+.ic_tax_report .ic_navigation .ic_section-header h3{
+	font-size:14px !important;
+	color:#333;
+	}
+		
+.ic_tax_report .ic_navigation .ic_FormRow{float:left; width:50%; margin-bottom:10px;}
+.ic_tax_report .ic_firstrow{padding-right:25px;}
+.ic_tax_report .ic_secondrow{padding-left:25px;}
+
+.ic_tax_report .ic_label-text{width:32%; float:left; font-weight:bold; padding:5px 0px 0 0;}
+
+.ic_tax_report .ic_input-text, .ic_tax_report .ic_form-text{float:left; width:68%;}
+.ic_tax_report .ic_calendar{width:250px;}
+.ic_tax_report .ic_form-text{padding-top:6px; font-weight:600;}
+
+.ic_tax_report .ic_input-text input, .ic_tax_report .ic_input-text select{width:100%;}
+
+.ic_tax_report .widefat input{font-size:13px;}
+
+.ic_tax_report .ic_formwrap .ic_FormRow{padding-left:15px; padding-right:15px;}
+
+
+/*Error Message*/
+.ic_tax_report .ic_error{background:#F2DEDE; margin-bottom:15px; padding:10px 15px;}
+.ic_tax_report .ic_error li{padding-bottom:8px; position:relative; left:20px;}
+.ic_tax_report .ic_error li:before{font-family:'FontAwesome'; content:"\f00d"; color:#C83A3B; position:absolute; left:-20px;}
+
+/*Success Message*/
+.ic_tax_report .ic_success{background:#DFF0D8; margin-bottom:15px; padding:10px 15px 10px; color:#3C763D;}
+
+.ic_tax_report .margin-top{margin-top:10px;}
+
+.ic_tax_report .ic_button{
+	background: #2489C5;
+	color: #fff;
+	padding: 6px 18px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 8px 0 5px 0;
+}
+
+.ic_tax_report .ic_button:hover {
+    background: #3DA0DB;
+}
+
+
+/* Other Plugins CSS *********** */
+.ic_tax_report .ic_plugins_container{font-size:15px; color:#686868; line-height:1.5em;}
+
+.ic_tax_report .ic_plugins_container *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+.ic_tax_report .ic_plugins_container *:before,
+.ic_tax_report .ic_plugins_container *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+.ic_tax_report .ic_plugins_container a:focus{box-shadow:none;}
+
+.ic_tax_report .ic_plugins_container{margin-top:10px; margin-right:20px;}
+	
+.ic_tax_report .ic_plugins_container .col-md-4{
+	padding-left:15px;
+	padding-right:15px;
+	}
+
+.ic_tax_report .ic_plugins_container .col-md-4:nth-child(3n+4){
+  	clear:left;
+	}
+	
+.ic_tax_report .ic_other_plugins{
+	background:#fff;
+	border-radius:4px;
+	box-shadow:0 0 2px #ccc;
+	padding:15px;
+	margin-bottom:30px;
+	}
+
+.ic_tax_report .ic_plugins_container img{
+	outline:0; 
+	height:auto; 
+	max-width:100%;
+	display:block;
+	}
+
+/*.iccommercepluginwrap .ic_plugins_container .ic_other_plugins:hover .ic_plugin_img{
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	}*/
+	
+.ic_tax_report .ic_plugins_container .ic_other_plugins{}	
+
+.ic_tax_report .ic_plugins_container .ic_plugin_content{padding:15px 0px 0px 0px;}
+
+.ic_tax_report .ic_plugins_container h2 a{
+	text-decoration:none;
+	font-size:21px;
+	color:#484848;
+	line-height:1.2em;
+	
+	-moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    transition:all 0.2s ease-in-out;
+	}
+	
+.ic_tax_report .ic_plugins_container h2 a:hover{
+	color:#0073AA;
+	}
+
+.ic_tax_report .ic_plugins_container .amount{
+	font-size:24px;
+	padding:10px 0 0px 0;
+	display:block;
+	color:#FA9B1B;
+	font-weight:600;
+	}
+	
+.ic_tax_report .ic_plugins_container .ic_readmore{
+	text-align:center;
+	}
+	
+.ic_tax_report .ic_plugins_container .ic_readmore a{
+	text-decoration:none;
+	font-size:14px;
+	background:#8D8D8D;
+	color:#fff;
+	display:inline-block;
+	padding:1px 20px 4px 20px;
+	border-radius:15px;
+	}
+	
+.ic_tax_report .ic_plugins_container .ic_readmore a:hover{
+	background:#0073AA;
+	}
+
+.ic_tax_report .ic_plugins_container .UlList{margin-top:15px; margin-bottom:10px;}
+
+.ic_tax_report .ic_plugins_container .UlList li{
+	background-image:url(../include/assets/images/tickmark.png);
+	background-repeat:no-repeat;
+	background-position:0 8px;
+	padding:0 0 8px 23px;
+	}
+
+.ic_tax_report .ic_plugins_container .UlList li strong{
+	color:#565656;
+	}
+
+.ic_tax_report .ic_plugins_container p{margin:0;	padding:0;}
+
+@media (max-width:1200px){
+.ic_tax_report .ic_plugins_container .col-md-4{
+	width:50%;
+	}
+	
+.ic_tax_report .ic_plugins_container .col-md-4:nth-child(3n+4){
+  	clear:inherit;
+	}
+
+.ic_tax_report .ic_plugins_container .col-md-4:nth-child(2n+3){
+	clear:left;
+	}
+}
+
+@media (max-width:767px){
+.ic_tax_report .ic_plugins_container .col-md-4{
+	width:500px;
+	margin:0 auto
+	}
+}
+
+@media (max-width:520px){
+.ic_tax_report .ic_plugins_container .col-md-4{
+	width:100%;
+	}
+}
+
+
+
+
+/* Media Query ---------------------------------------------- */
+
+@media (max-width:1270px){
+	.ic_tax_report .ic_summary .col-xs-3{width:50%;}
+}
+
+@media (max-width:1200px) {
+	.ic_tax_report .ic_formwrap {width: 100%;}
+}
+
+@media (max-width:940px){
+	.ic_tax_report .ic_form-group{margin-bottom:0px;}
+	
+	.ic_tax_report .ic_navigation .ic_FormRow{float:none; width:100%; /*margin-bottom:10px;*/}
+	
+	.ic_tax_report .ic_firstrow{padding-right:0px;}
+	.ic_tax_report .ic_secondrow{padding-left:0px;}
+	
+	.ic_tax_report .ic_navigation .ic_FormRow:before, 
+	.ic_tax_report .ic_navigation .ic_FormRow:after{display:table; content:"";}
+	
+	.ic_tax_report .ic_navigation .ic_FormRow:after{clear:both;}
+	
+	.ic_tax_report *::before, 
+	.ic_tax_report *::after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+
+@media (max-width:782px){
+	.ic_tax_report select,
+	.ic_tax_report input, 
+	.ic_tax_report textarea{
+        font-size:14px !important;
+    }
+	
+	.ic_tax_report select{height:auto !important;}
+}
+
+@media (max-width:767px){
+	.ic_tax_report .ic_table-responsive{
+		width:100%;
+		overflow-y:hidden;
+		-ms-overflow-style:-ms-autohiding-scrollbar;
+		}
+}
+
+@media (max-width:550px){
+	.ic_tax_report .ic_summary .col-xs-3{width:100%;}
+}
+
+@media (max-width:500px){
+	.ic_tax_report .ic_label-text{width:100%;}
+	.ic_tax_report .ic_input-text, .ic_tax_report .ic_form-text{width:100%;}
+	
+	.ic_tax_report h2 .nav-tab{padding:2px 7px; font-size:13px;}
+}
+
+
+
+
+
+

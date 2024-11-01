@@ -1,0 +1,168 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tax Report for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-12 16:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-6.0-beta4\n"
+"X-Domain: icwoocommercetax"
+
+#: include/ic-woocommerce-tax-report-function.php:178
+msgid "Billing Country"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:189
+msgid "Billing Email"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:188
+msgid "Billing First Name"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:180
+msgid "Billing Postcode"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:179
+msgid "Billing State"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-init.php:42
+msgid "Dashboard"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-list.php:30
+msgid "From Date:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://plugins.infosofttech.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://plugins.infosofttech.com/products/woocommerce-tax-report/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Infosoft Consultants"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:191
+msgid "Order Currency"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:176
+#: include/ic-woocommerce-tax-report-function.php:187
+msgid "Order Date"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:175
+msgid "Order ID"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:186
+msgid "Order Id"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:177
+msgid "Order Item Name"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-list.php:69
+msgid "Order not found."
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:192
+msgid "Order Total"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-init.php:44
+msgid "Other Plug-ins"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:190
+msgid "Payment Method Title"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-list.php:45
+msgid "Search"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:182
+#: include/ic-woocommerce-tax-report-function.php:197
+msgid "Shipping Tax Amount"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:112
+msgid "Summary"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:181
+#: include/ic-woocommerce-tax-report-function.php:196
+msgid "Tax Amount"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-list.php:22
+msgid "Tax Detail Report"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-function.php:195
+msgid "Tax Name"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-init.php:43
+msgid "Tax Report"
+msgstr ""
+
+#. Name of the plugin
+msgid "Tax Report for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Tax Report for WooCommerce Plugin shows Tax summaries and Shipping Tax "
+"Summaries, Tax detail report shows each Order wise tax details."
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:170
+msgid "Tax Summary By Tax Name"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-list.php:34
+msgid "To Date:"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:156
+msgid "Today Shipping Tax"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:144
+msgid "Today Tax"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:130
+msgid "Total Shipping Tax"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:117
+#: include/ic-woocommerce-tax-report-function.php:183
+#: include/ic-woocommerce-tax-report-function.php:198
+msgid "Total Tax"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-init.php:41
+msgid "Woo Tax Report"
+msgstr ""
+
+#: include/ic-woocommerce-tax-report-dashboard.php:110
+msgid "WooTax Dashboard"
+msgstr ""
